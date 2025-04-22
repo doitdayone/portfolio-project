@@ -52,7 +52,7 @@ export default function HeroSection({ scrollNext }: HeroSectionProps) {
             <div className="absolute inset-4 rounded-full bg-[#86a877]/30"></div>
             <div className="absolute inset-8 rounded-full bg-[#5c7850]/20 flex items-center justify-center">
               <Image
-                src="/images/avatar.png"
+                src="images/avatar.png"
                 alt="Profile"
                 width={300}
                 height={300}

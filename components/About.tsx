@@ -8,7 +8,7 @@ export default function AboutSection() {
           <div className="absolute top-10 left-10 w-64 h-64 bg-[#5c7850]/20 rounded-lg transform rotate-3"></div>
           {/* Dùng Image nếu có Next.js, hoặc giữ nguyên img nếu không */}
           <Image
-            src="/images/body.png"
+            src="images/body.png"
             alt="About me"
             width={400}
             height={400}
