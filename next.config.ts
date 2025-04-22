@@ -1,8 +1,15 @@
 import type { NextConfig } from "next";
 
+const repo = "portfolio-project";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  basePath: "/portfolio-project",
+  output: "export",
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
