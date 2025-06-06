@@ -10,6 +10,7 @@ export default function SkillsSection() {
   const tools = [
     "ASP.NET",
     "C#",
+    "Graphql",
     "Unity",
     "Next.js",
     "TypeScript",
@@ -18,7 +19,6 @@ export default function SkillsSection() {
     "Springboot",
     "Thymelyf",
     "Android",
-
     "Java",
     "PostgreSQL",
     "MySQL",
